@@ -1,0 +1,177 @@
+
+section#services {
+    width: 100%;
+    padding: 50px 80px;
+    margin: 50px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  section#services .servicesHeading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 130px;
+  }
+  
+  section#services .servicesHeading h2 {
+    font-size: 6rem;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+  }
+  
+  section#services .servicesHeading h2::before {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 170px;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    height: 32px;
+    background-color: #57C266;
+    z-index: -1;
+  }
+  
+  section#services .servicesContent {
+    padding: 0 50px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  section#services .servicesContent .option {
+    width: 320px;
+    background-color: #FFFFFF;
+    border-bottom: 16px solid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px 30px 20px 30px;
+  }
+  
+  section#services .servicesContent .option > img {
+    width: 100px;
+    height: auto;
+  }
+  
+  section#services .servicesContent .option .serviceName {
+    margin: 20px auto 0px auto;
+  }
+  
+  section#services .servicesContent .option .serviceName h3 {
+    font-size: 1.7rem;
+  }
+  
+  section#services .servicesContent .option .services {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: 20px auto;
+    width: 60%;
+  }
+  
+  section#services .servicesContent .option .services .checked {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  section#services .servicesContent .option .services .checked:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  section#services .servicesContent .option .services .checked img {
+    width: 20px;
+    margin-right: 12px;
+  }
+  
+  section#services .servicesContent .option .services .checked p {
+    font-size: 1.2rem;
+  }
+  
+  section#services .servicesContent .option > p {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  section#services .servicesContent .optionOne {
+    border-color: #FFAA0D;
+  }
+  
+  section#services .servicesContent .optionOne > p {
+    color: #F71963;
+  }
+  
+  section#services .servicesContent .optionTwo {
+    border-color: #00CBEA;
+  }
+  
+  section#services .servicesContent .optionTwo > p {
+    color: #FFAA0D;
+  }
+  
+  section#services .servicesContent .optionThree {
+    border-color: #F71963;
+  }
+  
+  section#services .servicesContent .optionThree > p {
+    color: #00CBEA;
+  }

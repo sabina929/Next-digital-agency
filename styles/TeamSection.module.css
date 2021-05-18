@@ -1,0 +1,171 @@
+section#team {
+    width: 100%;
+    padding: 49.8282px 80px;
+    margin: 50px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  section#team .teamHeading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 130px;
+  }
+  
+  section#team .teamHeading h2 {
+    font-size: 6rem;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+  }
+  
+  section#team .teamHeading h2::before {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 105px;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    height: 32px;
+    background-color: #57C266;
+    z-index: -1;
+  }
+  
+  section#team .teamContent {
+    padding: 0 50px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  section#team .teamContent .member {
+    width: 240px;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  
+  section#team .teamContent .memberAvatar {
+    width: 100%;
+    height: 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #FFFFFF;
+  }
+  
+  section#team .teamContent .memberAvatar img {
+    width: 60%;
+    height: 60%;
+  }
+  
+  section#team .teamContent .member > h3 {
+    font-size: 1.8rem;
+    margin: 20px 0 10px 0;
+  }
+  
+  section#team .teamContent .member > p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0px 0 20px 0;
+  }
+  
+  section#team .teamContent .member > .socialLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    margin-left: -1px;
+  }
+  
+  section#team .teamContent .member > .socialLinks img {
+    width: 32px;
+    height: auto;
+  }
+  
+  section#team .teamContent .member > .socialLinks img:nth-child(1) {
+    margin-right: 16px;
+  }
+  
+  section#team .teamContent .member > .socialLinks img:nth-child(2) {
+    margin-right: 12px;
+  }
+  
+  section#team .teamContent .memberOne .memberAvatar {
+    -webkit-box-shadow: 16px -16px 0 0px #57c266;
+            box-shadow: 16px -16px 0 0px #57c266;
+  }
+  
+  section#team .teamContent .memberTwo .memberAvatar {
+    -webkit-box-shadow: 16px -16px 0 0px #00cbea;
+            box-shadow: 16px -16px 0 0px #00cbea;
+  }
+  
+  section#team .teamContent .memberThree .memberAvatar {
+    -webkit-box-shadow: 16px -16px 0 0px #f71963;
+            box-shadow: 16px -16px 0 0px #f71963;
+  }
+  
+  section#team .teamContent .memberFour .memberAvatar {
+    -webkit-box-shadow: 16px -16px 0 0px #ffaa0d;
+            box-shadow: 16px -16px 0 0px #ffaa0d;
+  }
