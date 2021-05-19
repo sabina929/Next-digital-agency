@@ -1,0 +1,87 @@
+main.aboutPage {
+    width: 100vw;
+    padding: 50px 80px;
+    margin: 50px;
+    margin-top: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  main.aboutPage .aboutHeading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 100px;
+  }
+  
+  main.aboutPage .aboutHeading h1 {
+    margin-left: -50px;
+    font-size: 6rem;
+    font-weight: 800;
+    position: relative;
+    z-index: 1;
+  }
+  
+  main.aboutpage .aboutHeading h1::before {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 186px;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100%;
+    height: 32px;
+    background-color: #FFAA0D;
+    z-index: -1;
+  }
+  
+  main.aboutPage .aboutContent {
+    width: 84%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 50px;
+  }
+  
+  main.aboutPage .aboutContent h2 {
+    width: 70%;
+    margin-bottom: 50px;
+    font-size: 2.4rem;
+    line-height: 60px;
+  }
+  
+  main.aboutPage .aboutContent p {
+    font-size: 1.5rem;
+    line-height: 40px;
+    font-weight: 400;
+  }
+  
+  main.aboutPage .aboutContent p:not(:last-child) {
+    margin-bottom: 50px;
+  }
+  

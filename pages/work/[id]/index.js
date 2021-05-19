@@ -5,6 +5,7 @@ import {useRouter} from 'next/router'
 // import { useWorkContext } from '../components/WorkContext'
 // import Image from "next/image";
 import works from '../../../components/data'
+import styles from '../styles/Work.module.css'
 
 const article = ({id}) => {
     // const {works} = useWorkContext()
@@ -37,8 +38,8 @@ const article = ({id}) => {
     return (
         <>
 
-            <section id="work">
-            <div className={`work-${work.id} work`}>
+            <section id={styles.work}>
+            <div className={`${styles.work}-${work.id} ${styles.work}`}>
                 <img src={work.imgSrc} alt="project"/>
                 {/* <div className="overlay"></div> */}
                 <h3>{work.projectName}</h3>
