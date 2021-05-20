@@ -51,7 +51,7 @@ main.servicesPage {
     z-index: -1;
   }
   
-  main.servicesPage .services__content {
+  main.servicesPage .servicesContent {
     padding: 0 50px;
     width: 100%;
     display: -webkit-box;
@@ -69,7 +69,7 @@ main.servicesPage {
             align-items: center;
   }
   
-  main.servicesPage .services__content .option {
+  main.servicesPage .servicesContent .option {
     width: 320px;
     background-color: #FFFFFF;
     border-bottom: 16px solid;
@@ -89,20 +89,20 @@ main.servicesPage {
     padding: 30px 30px 20px 30px;
   }
   
-  main.servicesPage .services__content .option > img {
+  main.servicesPage .servicesContent .option > img {
     width: 100px;
     height: auto;
   }
   
-  main.servicesPage .services__content .option .service-name {
+  main.servicesPage .servicesContent .option .service-name {
     margin: 20px auto 0px auto;
   }
   
-  main.servicesPage .services__content .option .service-name h3 {
+  main.servicesPage .servicesContent .option .service-name h3 {
     font-size: 1.7rem;
   }
   
-  main.servicesPage .services__content .option .services {
+  main.servicesPage .servicesContent .option .services {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -120,7 +120,7 @@ main.servicesPage {
     width: 60%;
   }
   
-  main.servicesPage .services__content .option .services .checked {
+  main.servicesPage .servicesContent .option .services .checked {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -136,44 +136,44 @@ main.servicesPage {
             align-items: center;
   }
   
-  main.servicesPage .services__content .option .services .checked:not(:last-child) {
+  main.servicesPage .servicesContent .option .services .checked:not(:last-child) {
     margin-bottom: 8px;
   }
   
-  main.servicesPage .services__content .option .services .checked img {
+  main.servicesPage .servicesContent .option .services .checked img {
     width: 20px;
     margin-right: 12px;
   }
   
-  main.servicesPage .services__content .option .services .checked p {
+  main.servicesPage .servicesContent .option .services .checked p {
     font-size: 1.2rem;
   }
   
-  main.servicesPage .services__content .option > p {
+  main.servicesPage .servicesContent .option > p {
     font-size: 2rem;
     font-weight: 700;
   }
   
-  main.servicesPage .services__content .option-one {
+  main.servicesPage .servicesContent .option-one {
     border-color: #FFAA0D;
   }
   
-  main.servicesPage .services__content .option-one > p {
+  main.servicesPage .servicesContent .option-one > p {
     color: #F71963;
   }
   
-  main.servicesPage .services__content .option-two {
+  main.servicesPage .servicesContent .optionTwo {
     border-color: #00CBEA;
   }
   
-  main.servicesPage .services__content .option-two > p {
+  main.servicesPage .servicesContent .optionTwo > p {
     color: #FFAA0D;
   }
   
-  main.servicesPage .services__content .option-three {
+  main.servicesPage .servicesContent .optionThree {
     border-color: #F71963;
   }
   
-  main.servicesPage .services__content .option-three > p {
+  main.servicesPage .servicesContent .optionThree > p {
     color: #00CBEA;
   }
