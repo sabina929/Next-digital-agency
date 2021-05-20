@@ -7,36 +7,36 @@ import { useEffect} from 'react'
 // import serviceThree from '../images/service-3.png'
 
 import Image  from "next/image";
-
+import styles from '../styles/Services.module.css'
 function Services() {
 //   useEffect(() => {
 //     window.scrollTo(0, 0)
 //   }, [])
   return (
-    <main className="servicesPage">
-            <div className="servicesHeading">
+    <main className={styles.servicesPage}>
+            <div className={styles.servicesHeading}>
                 <h1>Services</h1>
             </div>
-            <div className="servicesContent">
+            <div className={styles.servicesContent}>
                 
-                <div className="optionOne option">
+                <div className={`${styles.optionOne} ${styles.option}`}>
                     {/* <Image src='/service-1.png' alt="illustration of geometric shapes and phone" width={40} height={40}/> */}
                     <img src='/service-1.png' alt="illustration of geometric shapes and phone"/>
-                    <div className="service-name">
+                    <div className={styles.serviceName}>
                         <h3>Lorem Ipsum</h3>
                     </div>
-                    <div className="services">
-                        <div className="checked">
+                    <div className={styles.services}>
+                        <div className={styles.checked}>
                         {/* <Image src='/checked-m.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-m.png' alt="checked icon"/>
                         <p>Adipiscing</p>
                         </div>
-                        <div className="checked">
+                        <div className={styles.checked}>
                         {/* <Image src='/checked-m.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-m.png' alt="checked icon"/>
                         <p>Consectetur</p>
                         </div>
-                        <div className="checked">
+                        <div className={styles.checked}>
                         {/* <Image src='/checked-m.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-m.png' alt="checked icon"/>
                         <p>Voluptate</p>
@@ -44,23 +44,23 @@ function Services() {
                     </div>
                     <p>$400</p>
                 </div>
-                <div className="optionTwo option">
+                <div className={`${styles.optionTwo} ${styles.option}`}>
                     <img src='/service-2.png' alt="illustration of geometric shapes and world web"/>
-                    <div className="service-name">
+                    <div className={styles.serviceName}>
                         <h3>Adipiscing Elit</h3>
                     </div>
-                    <div className="services">
-                        <div className="checked">
+                    <div className={styles.services}>
+                        <div className={styles.checked}>
                         {/* <Image src='/checked-y.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-y.png' alt="checked icon"/>
                         <p>Adipiscing</p>
                         </div>
-                        <div className="checked">
+                        <div className={styles.checked}>
                         {/* <Image src='/checked-y.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-y.png' alt="checked icon"/>
                         <p>Consectetur</p>
                         </div>
-                        <div className="checked">
+                        <div className={styles.checked}>
                         {/* <Image src='/checked-y.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-y.png' alt="checked icon"/>
                         <p>Voluptate</p>
@@ -68,24 +68,24 @@ function Services() {
                     </div>
                     <p>$800</p>
                 </div>
-                <div className="optionThree option">
+                <div className={`${styles.optionThree} ${styles.option}`}>
                     {/* <Image src='/service-3.png' alt="illustration of geometric shapes and lock"  width={20} height={20}/> */}
                     <img src='/service-3.png' alt="illustration of geometric shapes and lock"/>
-                    <div className="service-name">
+                    <div className={styles.serviceName}>
                         <h3>Facere possima</h3>
                     </div>
-                    <div className="services">
-                        <div className="checked">
+                    <div className={styles.services}>
+                        <div className={styles.checked}>
                         {/* <Image src='/checked-c.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-c.png' alt="checked icon"/>
                         <p>Adipiscing</p>
                         </div>
-                        <div className="checked">
+                        <div className={styles.checked}>
                         {/* <Image src='/checked-c.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-c.png' alt="checked icon"/>
                         <p>Consectetur</p>
                         </div>
-                        <div className="checked">
+                        <div className={styles.checked}>
                         {/* <Image src='/checked-c.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-c.png' alt="checked icon"/>
                         <p>Voluptate</p>
