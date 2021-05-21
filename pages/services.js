@@ -1,10 +1,4 @@
 import { useEffect} from 'react'
-// import checkedOne from '../images/checked-m.png'
-// import checkedTwo from '../images/checked-y.png'
-// import checkedThree from '../images/checked-c.png'
-// import serviceOne from '../images/service-1.png'
-// import serviceTwo from '../images/service-2.png'
-// import serviceThree from '../images/service-3.png'
 
 import Image  from "next/image";
 import styles from '../styles/Services.module.css'
