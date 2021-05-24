@@ -1,10 +1,3 @@
-// import arrow from "../images/arrow.png";
-// import footerTwitter from "../images/footer-twitter.png";
-// import footerLinkedin from "../images/footer-linkedin.png";
-// import footerInstagram from "../images/footer-instagram.png";
-// import footerFacebook from "../images/footer-facebook.png";
-import Image  from "next/image";
-
 import styles from '../styles/Footer.module.css'
 
 const Footer = () => {
