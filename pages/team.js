@@ -4,64 +4,66 @@ import {useEffect} from 'react'
 // import teamFacebook from '../images/team-facebook.png'
 // import avatar from '../images/avatar.png'
 import Image  from "next/image";
+// import styles from '../styles/Team.module.css'
+import styles from '../styles/Team.module.css'
 
 function Team() {
   // useEffect(() => {
   //   window.scrollTo(0, 0)
   // }, [])
   return (
-    <main className="teampage">
-            <div className="teamHeading">
+    <main className={styles.teamPage}>
+            <div className={styles.teamHeading}>
                 <h1>Team</h1>
             </div>
-            <div className="teamContent">
+            <div className={styles.teamContent}>
                 
-                <div className="memberOne member">
-                    <div className="memberAvatar">
-                    <Image src='/avatar.png' alt="avatar icon" width={20} height={20}/>
+                <div className={`${styles.memberOne} ${styles.member}`}>
+                    <div className={styles.memberAvatar}>
+                    <img src='/avatar.png' alt="avatar icon"/>
                     </div>
                     <h3>Name Surname</h3>
                     <p>Job Title</p>
-                    <div className="socialLinks">
-                    <Image src='/team-linkedin.png' alt="linkedin icon" width={20} height={20}/>
-                    <Image src='/team-twitter.png' alt="twitter icon" width={20} height={20}/>
-                    <Image src='/team-facebook.png' alt="facebook icon" width={20} height={20}/>                    
+                    <div className={styles.socialLinks}>
+                    <img src='/team-linkedin.png' alt="linkedin icon"/>
+                    <img src='/team-twitter.png' alt="twitter icon"/>
+                    <img src='/team-facebook.png' alt="facebook icon"/>                    
                     </div> 
                 </div>
-                <div className="memberTwo member">
-                    <div className="memberAvatar">
-                    <Image src='/avatar.png' alt="avatar icon"  width={20} height={20}/>
+                <div className={`${styles.memberTwo} ${styles.member}`}>
+                    <div className={styles.memberAvatar}>
+                         <img src='/avatar.png' alt="avatar icon"/>
                     </div>
                     <h3>Name Surname</h3>
                     <p>Job Title</p>
-                    <div className="socialLinks">
-                    <Image src='/team-linkedin.png' alt="linkedin icon" width={20} height={20}/>
-                    <Image src='/team-twitter.png' alt="twitter icon" width={20} height={20}/>
-                    <Image src='/team-facebook.png' alt="facebook icon" width={20} height={20}/>                    
+                    <div className={styles.socialLinks}>
+                    <img src='/team-linkedin.png' alt="linkedin icon"/>
+                    <img src='/team-twitter.png' alt="twitter icon"/>
+                    <img src='/team-facebook.png' alt="facebook icon"/>                    
                     </div> 
                 </div>
-                <div className="memberThree member">
-                    <div className="memberAvatar">
-                    <Image src='/avatar.png' alt="avatar icon"  width={20} height={20}/>
+                <div className={`${styles.memberThree} ${styles.member}`}>
+                    <div className={styles.memberAvatar}>
+                         <img src='/avatar.png' alt="avatar icon"/>
                     </div>
                     <h3>Name Surname</h3>
                     <p>Job Title</p>
-                    <div className="socialLinks">
-                    <Image src='/team-linkedin.png' alt="linkedin icon" width={20} height={20}/>
-                    <Image src='/team-twitter.png' alt="twitter icon" width={20} height={20}/>
-                    <Image src='/team-facebook.png' alt="facebook icon" width={20} height={20}/>                    
+                    <div className={styles.socialLinks}>
+                    <img src='/team-linkedin.png' alt="linkedin icon"/>
+                    <img src='/team-twitter.png' alt="twitter icon"/>
+                    <img src='/team-facebook.png' alt="facebook icon"/>                    
                     </div> 
                 </div>
-                <div className="memberFour member">
-                    <div className="memberAvatar">
-                    <Image src='/avatar.png' alt="avatar icon"  width={20} height={20}/>
+                <div className={`${styles.memberFour} ${styles.member}`}>
+                    <div className={styles.memberAvatar}>
+                         <img src='/avatar.png' alt="avatar icon"/>
                     </div>
                     <h3>Name Surname</h3>
                     <p>Job Title</p>
-                    <div className="socialLinks">
-                    <Image src='/team-linkedin.png' alt="linkedin icon" width={20} height={20}/>
-                    <Image src='/team-twitter.png' alt="twitter icon" width={20} height={20}/>
-                    <Image src='/team-facebook.png' alt="facebook icon" width={20} height={20}/>                    
+                    <div className={styles.socialLinks}>
+                    <img src='/team-linkedin.png' alt="linkedin icon"/>
+                    <img src='/team-twitter.png' alt="twitter icon"/>
+                    <img src='/team-facebook.png' alt="facebook icon"/>                    
                     </div> 
                 </div>
                

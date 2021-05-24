@@ -10,7 +10,7 @@ const TeamSection = () => {
     return (
         <section id={styles.team}>
             <div className={styles.teamHeading}>
-                <h1>Team</h1>
+                <h2>Team</h2>
             </div>
             <div className={styles.teamContent}>
                 

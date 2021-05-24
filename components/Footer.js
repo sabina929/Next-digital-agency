@@ -37,7 +37,7 @@ const Footer = () => {
                     <p>City, state, Zip Code</p>
                 </div>
                 <div className={styles.copyright}>
-                    <p>&copy; Copyright, 2020</p>
+                    <p>&copy; Copyright, 2021</p>
                     <p>Company Name</p>
                 </div>
             </div>
