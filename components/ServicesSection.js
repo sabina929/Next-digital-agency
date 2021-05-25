@@ -3,8 +3,7 @@
 // import checkedThree from '../images/checked-c.png'
 // import serviceOne from '../images/service-1.png'
 // import serviceTwo from '../images/service-2.png'
-// import serviceThree from '../images/service-3.png'
-// import Image from "next/image";
+// import serviceThree from '../images/service-3.png'Z
 
 import styles from '../styles/ServicesSection.module.css'
 

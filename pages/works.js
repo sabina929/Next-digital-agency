@@ -16,22 +16,21 @@ function Works() {
         <h1>Works</h1>
       </div>
       <div className={styles.worksContent}>
-      {
-                    works.map(work => {
-                        // console.log(work.imgSrc)
-                        return (
-                            <Link href={`/work/${work.id}`} key={work.id}>
-                            
-                                <div className={`${styles.work}-${work.id} ${styles.work}`}>
-                                    <img src={work.imgSrc} alt="project"/>
-                                    <div className={styles.overlay}></div>
-                                    <h3>{work.projectName}</h3>
-                                    <p>{work.shortDescription}</p>
-                                </div>
-                            </Link>
-                        )
-                    })
-                }
+        {
+            works.map(work => {
+                return (
+                    <Link href={`/work/${work.id}`} key={work.id}>
+                    
+                        <div className={`${styles.work}-${work.id} ${styles.work}`}>
+                            <img src={work.imgSrc} alt="project"/>
+                            <div className={styles.overlay}></div>
+                            <h3>{work.projectName}</h3>
+                            <p>{work.shortDescription}</p>
+                        </div>
+                    </Link>
+                )
+            })
+        }
       </div>
     </main>
 
