@@ -14,24 +14,20 @@ function Services() {
             <div className={styles.servicesContent}>
                 
                 <div className={`${styles.optionOne} ${styles.option}`}>
-                    {/* <Image src='/service-1.png' alt="illustration of geometric shapes and phone" width={40} height={40}/> */}
                     <img src='/service-1.png' alt="illustration of geometric shapes and phone"/>
                     <div className={styles.serviceName}>
                         <h3>Lorem Ipsum</h3>
                     </div>
                     <div className={styles.services}>
                         <div className={styles.checked}>
-                        {/* <Image src='/checked-m.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-m.png' alt="checked icon"/>
                         <p>Adipiscing</p>
                         </div>
                         <div className={styles.checked}>
-                        {/* <Image src='/checked-m.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-m.png' alt="checked icon"/>
                         <p>Consectetur</p>
                         </div>
                         <div className={styles.checked}>
-                        {/* <Image src='/checked-m.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-m.png' alt="checked icon"/>
                         <p>Voluptate</p>
                         </div>
@@ -45,17 +41,14 @@ function Services() {
                     </div>
                     <div className={styles.services}>
                         <div className={styles.checked}>
-                        {/* <Image src='/checked-y.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-y.png' alt="checked icon"/>
                         <p>Adipiscing</p>
                         </div>
                         <div className={styles.checked}>
-                        {/* <Image src='/checked-y.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-y.png' alt="checked icon"/>
                         <p>Consectetur</p>
                         </div>
                         <div className={styles.checked}>
-                        {/* <Image src='/checked-y.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-y.png' alt="checked icon"/>
                         <p>Voluptate</p>
                         </div>
@@ -63,24 +56,20 @@ function Services() {
                     <p>$800</p>
                 </div>
                 <div className={`${styles.optionThree} ${styles.option}`}>
-                    {/* <Image src='/service-3.png' alt="illustration of geometric shapes and lock"  width={20} height={20}/> */}
                     <img src='/service-3.png' alt="illustration of geometric shapes and lock"/>
                     <div className={styles.serviceName}>
                         <h3>Facere possima</h3>
                     </div>
                     <div className={styles.services}>
                         <div className={styles.checked}>
-                        {/* <Image src='/checked-c.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-c.png' alt="checked icon"/>
                         <p>Adipiscing</p>
                         </div>
                         <div className={styles.checked}>
-                        {/* <Image src='/checked-c.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-c.png' alt="checked icon"/>
                         <p>Consectetur</p>
                         </div>
                         <div className={styles.checked}>
-                        {/* <Image src='/checked-c.png' alt="checked icon" width={40} height={40}/> */}
                         <img src='/checked-c.png' alt="checked icon"/>
                         <p>Voluptate</p>
                         </div>
