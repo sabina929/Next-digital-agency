@@ -219,3 +219,416 @@ footer#contact {
     margin-right: 20px;
   }
   
+
+  /* 1024 */
+@media only screen and (max-width: 1024px) {
+  
+  footer#contact {
+    padding: 60px 80px;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer#contact .slogan {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  footer#contact .slogan h2 {
+    font-size: 3rem;
+  }
+  footer#contact .slogan p {
+    font-size: 3rem;
+    letter-spacing: 1px;
+  }
+  footer#contact a.upArrow {
+    width: 52.3px;
+    height: 39px;
+    top: 100px;
+    right: 100px;
+  }
+  footer#contact a.upArrow img {
+    margin-left: 5px;
+  }
+  footer#contact .numberMailSocial {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 60px;
+  }
+  footer#contact .numberMailSocial p {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  footer#contact .numberMailSocial .numberMail {
+    margin-bottom: 15px;
+  }
+  footer#contact .numberMailSocial .social a {
+    width: 32px;
+    height: 32px;
+  }
+  footer#contact .numberMailSocial .social a:not(:last-child) {
+    margin-right: 30px;
+  }
+  footer#contact .addressCopyright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer#contact .addressCopyright p {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    margin-right: 6px;
+  }
+  footer#contact .addressCopyright .address {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 8px;
+  }
+  footer#contact .addressCopyright .copyright {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+/* 800 */
+@media only screen and (max-width: 800px) {
+  footer#contact {
+    padding: 60px 60px;
+  }
+  footer#contact .slogan {
+    margin-bottom: 48px;
+  }
+  footer#contact .slogan h2 {
+    font-size: 2.7rem;
+  }
+  footer#contact .slogan p {
+    font-size: 2.7rem;
+    letter-spacing: 1px;
+  }
+  footer#contact a.upArrow {
+    width: 52.3px;
+    height: 39px;
+    top: 100px;
+    right: 70px;
+  }
+  footer#contact a.upArrow img {
+    margin-left: 5px;
+  }
+  footer#contact .numberMailSocial {
+    margin-bottom: 48px;
+  }
+  footer#contact .numberMailSocial p {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+  }
+  footer#contact .numberMailSocial .numberMail {
+    margin-bottom: 10px;
+  }
+  footer#contact .numberMailSocial .social a {
+    width: 30px;
+    height: 30px;
+  }
+  footer#contact .numberMailSocial .social a:not(:last-child) {
+    margin-right: 28px;
+  }
+  footer#contact .addressCopyright p {
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+    margin-right: 6px;
+  }
+  footer#contact .addressCopyright .address {
+    margin-bottom: 5px;
+  }
+  footer#contact .addressCopyright .copyright {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+/* 700 */
+@media only screen and (max-width: 700px) {
+  footer#contact {
+    padding: 56px 56px;
+  }
+  footer#contact .slogan {
+    margin-bottom: 48px;
+  }
+  footer#contact .slogan h2 {
+    font-size: 2.4rem;
+  }
+  footer#contact .slogan p {
+    font-size: 2.4rem;
+    letter-spacing: 1px;
+  }
+  footer#contact a.upArrow {
+    width: 52.3px;
+    height: 39px;
+    top: 100px;
+    right: 64px;
+  }
+  footer#contact a.upArrow img {
+    margin-left: 5px;
+  }
+  footer#contact .numberMailSocial {
+    margin-bottom: 48px;
+  }
+  footer#contact .numberMailSocial p {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+  footer#contact .numberMailSocial .numberMail {
+    margin-bottom: 10px;
+  }
+  footer#contact .numberMailSocial .social a {
+    width: 28px;
+    height: 28px;
+  }
+  footer#contact .numberMailSocial .social a:not(:last-child) {
+    margin-right: 24px;
+  }
+  footer#contact .addressCopyright p {
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+    margin-right: 6px;
+  }
+  footer#contact .addressCopyright .address {
+    margin-bottom: 5px;
+  }
+  footer#contact .addressCopyright .copyright {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+/* 600 */
+@media only screen and (max-width: 600px) {
+  footer#contact {
+    padding: 56px 56px;
+  }
+  footer#contact .slogan {
+    margin-bottom: 40px;
+  }
+  footer#contact .slogan h2 {
+    font-size: 2rem;
+  }
+  footer#contact .slogan p {
+    font-size: 2rem;
+    letter-spacing: .5px;
+  }
+  footer#contact a.upArrow {
+    width: 49.3px;
+    height: 36px;
+    top: 76px;
+    right: 60px;
+  }
+  footer#contact a.upArrow img {
+    margin-left: 5px;
+  }
+  footer#contact .numbermailSocial {
+    margin-bottom: 40px;
+  }
+  footer#contact .numbermailSocial p {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  footer#contact .numbermailSocial .numberMail {
+    margin-bottom: 8px;
+  }
+  footer#contact .numbermailSocial .social a {
+    width: 26px;
+    height: 26px;
+  }
+  footer#contact .numberMailSocial .social a:not(:last-child) {
+    margin-right: 18px;
+  }
+  footer#contact .addressCopyright p {
+    font-size: 1.1rem;
+    margin-bottom: 0px;
+    margin-right: 6px;
+  }
+  footer#contact .addressCopyright .address {
+    margin-bottom: 5px;
+  }
+  footer#contact .addressCopyright .copyright {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+/* 500 */
+@media only screen and (max-width: 520px) {
+  footer#contact {
+    padding: 40px 30px;
+  }
+  footer#contact .slogan {
+    margin-bottom: 36px;
+  }
+  footer#contact .slogan h2 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+  footer#contact .slogan p {
+    width: 60%;
+    font-size: 2rem;
+    line-height: 40px;
+    letter-spacing: .2px;
+  }
+  footer#contact a.upArrow {
+    width: 49.3px;
+    height: 36px;
+    top: 86px;
+    right: 42px;
+  }
+  footer#contact a.upArrow img {
+    margin-left: 5px;
+  }
+  footer#contact .numberMailSocial {
+    margin-bottom: 36px;
+  }
+  footer#contact .numberMailMocial p {
+    font-size: 1rem;
+    margin-bottom: 8px;
+  }
+  footer#contact .numberMailMocial .numberMail {
+    margin-bottom: 6px;
+  }
+  footer#contact .numberMailSocial .social a {
+    width: 22px;
+    height: 22px;
+  }
+  footer#contact .numberMailSocial .social a:not(:last-child) {
+    margin-right: 14px;
+  }
+  footer#contact .addressCopyright p {
+    font-size: 1rem;
+    margin-bottom: 0px;
+    margin-right: 6px;
+  }
+  footer#contact .addressCopyright .address {
+    margin-bottom: 8px;
+  }
+  footer#contact .addressCopyright .copyright {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+
+/* 400 */
+@media only screen and (max-width: 400px) {
+  footer#contact {
+    padding: 30px 30px;
+  }
+  footer#contact .slogan {
+    margin-bottom: 24px;
+  }
+  footer#contact .slogan h2 {
+    font-size: 1.5rem;
+    line-height: 32px;
+  }
+  footer#contact .slogan p {
+    width: 60%;
+    font-size: 1.5rem;
+    line-height: 32px;
+    letter-spacing: .2px;
+  }
+  footer#contact a.upArrow {
+    width: 42.3px;
+    height: 32px;
+    top: 60px;
+    right: 42px;
+  }
+  footer#contact a.upArrow img {
+    margin-left: 5px;
+  }
+  footer#contact .numberMailSocial {
+    margin-bottom: 24px;
+  }
+  footer#contact .numberMailSocial p {
+    font-size: .84rem;
+    letter-spacing: .2px;
+    margin-bottom: 5px;
+  }
+  footer#contact .numberMailSocial .numberMail {
+    margin-bottom: 6px;
+  }
+  footer#contact .numberMailSocial .social a {
+    width: 18px;
+    height: 18px;
+  }
+  footer#contact .numberMailSocial .social a:not(:last-child) {
+    margin-right: 10px;
+  }
+  footer#contact .addressCopyright p {
+    font-size: .84rem;
+    letter-spacing: .3px;
+    margin-bottom: 0px;
+    margin-right: 6px;
+  }
+  footer#contact .addressCopyright .address {
+    margin-bottom: 5px;
+  }
+  footer#contact .addressCopyright .copyright {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+}
