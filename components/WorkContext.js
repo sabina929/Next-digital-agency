@@ -1,4 +1,4 @@
-import {createContext, useState, useContext} from 'react'
+import {createContext, useState, useContext, useRef} from 'react'
 // import workOne from '/work-1.png'
 // import workTwo from '/work-2.png'
 // import workThree from '/work-3.png'
@@ -38,8 +38,11 @@ export const WorkContextProvider = ({children}) => {
         },
     ])
 
+    const contactSection = useRef(null)
+    const headerSection = useRef(null)
+
     return (
-        <WorkContext.Provider value={{works}}>
+        <WorkContext.Provider value={{works, contactSection, headerSection}}>
             {children}
         </WorkContext.Provider>
 

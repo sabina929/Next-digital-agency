@@ -1,14 +1,19 @@
 import styles from '../styles/Footer.module.css'
+import { useWorkContext } from './WorkContext'
 
 const Footer = () => {
-  
+    const {contactSection, headerSection} = useWorkContext()
+
+    const scrollToHeader = () => {
+        headerSection.current.scrollIntoView({ behavior: 'smooth' })
+    }
     return (
-        <footer id={styles.contact}>
+        <footer id={styles.contact} ref={contactSection}>
             <div className={styles.slogan}>
                   <h2>LET'S BUILD</h2>
                   <p>An Awesome Project</p>
             </div>
-            <a href="#header" className={styles.upArrow}>
+            <a href="#header" className={styles.upArrow} onClick={scrollToHeader}>
                   <img src='/arrow.png' alt="up arrow"/>
             </a>
 
