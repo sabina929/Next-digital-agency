@@ -7,7 +7,7 @@ const Header = ()=> {
   const [isOpen, setIsOpen] = useState(false)
 
   const handleToggle = () => {
-    setState(!isOpen)
+    setIsOpen(!isOpen)
   }
     return (
       <header id={styles.header}>
@@ -40,10 +40,10 @@ const Header = ()=> {
                     </li>
                 </ul>
             </nav>
-            <div className={`${styles.navBtn} ${isOpen ? styles.close : 'null'}`} onClick={handleToggle}>
-              <span className="navIcon"></span>
+            <div className={`${isOpen ? `${styles.navBtn} ${styles.close}` : `${styles.navBtn}`}`} onClick={handleToggle}>
+              <span className={styles.navIcon}></span>
             </div>
-            <nav className={`${styles.smallScreen} ${isOpen ? styles.open : 'null'}`}>
+            <nav className={`${isOpen ? `${styles.smallScreen} ${styles.open}` : `${styles.smallScreen}`}`}>
               <ul className={styles.navLinks}>
                     <li>
                         <Link href="/about" scroll={true}><a>About</a></Link>

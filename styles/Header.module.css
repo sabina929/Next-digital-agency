@@ -136,12 +136,12 @@ header#header {
             transform-origin: left;
   }
   
-  header#header div.navBtn .navIcon {
+  header#header div.navBtn span.navIcon {
     position: relative;
     margin-top: 24px;
   }
   
-  header#header div.navBtn .navIcon, header#header div.navBtn .navIcon::before, header#header div.navBtn .navIcon::after {
+  header#header div.navBtn span.navIcon, header#header div.navBtn span.navIcon::before, header#header div.navBtn span.navIcon::after {
     width: 28px;
     height: 2px;
     background-color: #433388;
@@ -154,7 +154,7 @@ header#header {
             transform-origin: left;
   }
   
-  header#header div.navBtn .navIcon::before, header#header div.navBtn .navIcon::after {
+  header#header div.navBtn span.navIcon::before, header#header div.navBtn span.navIcon::after {
     content: "";
     position: absolute;
     left: 0;
@@ -216,16 +216,20 @@ header#header {
             align-items: center;
     padding: 60px 90px;
     z-index: 999;
-    display: none;
+    /* display: none; */
+    transform: translate(100%);
+    transition: all 0.3s ease;
+    width: 360px;
   }
   
   header#header nav.smallScreen.open {
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 360px;
-    -webkit-animation: menuLeft 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
-            animation: menuLeft 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
+    width: 360px; */
+    transform: translate(0);
+    /* -webkit-animation: menuLeft 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
+            animation: menuLeft 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards; */
   }
   
   header#header nav.smallScreen ul {
@@ -247,7 +251,7 @@ header#header {
             align-items: flex-end;
   }
   
-  header#header nav.small-screen ul li {
+  header#header nav.smallScreen ul li {
     position: relative;
     z-index: 1000;
   }
@@ -291,3 +295,164 @@ header#header {
     font-weight: 400;
     z-index: 1000;
   }
+
+
+  /* 1500 */
+@media only screen and (max-width: 1500px) {
+  header#header nav.bigScreen ul li:not(:last-child) {
+    margin-right: 70px;
+  }
+}
+
+/* 1300 */
+@media only screen and (max-width: 1300px) {
+  header#header nav.bigScreen ul li:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+
+/* 1200 */
+@media only screen and (max-width: 1200px) {
+  header#header nav.bigScreen ul li:not(:last-child) {
+    margin-right: 50px;
+  }
+  header#header nav.bigScreen ul li a {
+    font-size: 1.2rem;
+  }
+  header#header nav.bigScreen ul li:last-child {
+    padding: 6px 16px;
+    width: 130px;
+  }
+
+}
+
+/* 1024 */
+@media only screen and (max-width: 1024px) {
+  header#header nav.bigScreen {
+    display: none;
+  }
+  header#header .navBtn {
+    display: block;
+  }
+}
+
+/* 800 */
+@media only screen and (max-width: 800px) {
+  header#header {
+    padding: 40px 60px;
+    height: 140px;
+  }
+  header#header .headerLogo {
+    width: 129px;
+    height: 50px;
+  }
+  header#header div.navBtn {
+    top: 46px;
+    right: 40px;
+  }
+}
+
+
+/* 600 */
+@media only screen and (max-width: 600px) {
+  header#header {
+    padding: 40px;
+    height: 130px;
+  }
+  header#header .headerLogo{
+    width: 129px;
+    height: 50px;
+  }
+  header#header div.navBtn{
+    top: 40px;
+    right: 18px;
+  }
+}
+
+/* 500 */
+@media only screen and (max-width: 500px) {
+  header#header {
+    padding: 30px;
+    height: 110px;
+  }
+  header#header .headerLogo{
+    width: 108px;
+    height: 42px;
+  }
+  header#header div.navBtn{
+    top: 30px;
+    right: 30px;
+  }
+}
+
+/* 480 */
+@media only screen and (max-width: 480px) {
+  header#header nav.smallScreen.open {
+    width: 320px;
+    -webkit-animation: menuLeft2 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
+            animation: menuLeft2 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
+  }
+  header#header nav.smallScreen ul li a {
+    font-size: 1.6rem;
+    letter-spacing: .5px;
+  }
+}
+
+
+/* 400 */
+@media only screen and (max-width: 400px) {
+  header#header {
+    padding: 24px;
+    height: 90px;
+  }
+  header#header .headerLogo {
+    width: 98px;
+    height: 38px;
+  }
+  header#header div.navBtn {
+    top: 20px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  header#header nav.smallScreen {
+    padding: 60px;
+  }
+  header#header nav.smallScreen.open {
+    width: 300px;
+    -webkit-animation: menuLeft3 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
+            animation: menuLeft3 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
+  }
+  header#header nav.smallScreen ul li a {
+    font-size: 1.6rem;
+    letter-spacing: .5px;
+  }
+}
+
+/* 370 */
+@media only screen and (max-width: 370px) {
+  header#header nav.smallScreen.open {
+    width: 280px;
+    -webkit-animation: menuLeft4 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
+            animation: menuLeft4 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
+  }
+}
+
+/* 340 */
+@media only screen and (max-width: 340px) {
+  header#header nav.smallScreen.open {
+    width: 260px;
+    -webkit-animation: menuLeft5 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
+            animation: menuLeft5 0.6s cubic-bezier(0.23, 0.28, 0.34, 0.93) forwards;
+  }
+}
+
+/*  1025 */
+@media only screen and (min-width: 1025px) {
+  header#header nav.smallScreen {
+    display: none;
+  }
+  header#header .navBtn {
+    display: none;
+  }
+}

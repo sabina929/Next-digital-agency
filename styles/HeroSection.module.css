@@ -14,3 +14,86 @@ section#hero h1 {
 section#hero h1 span {
     font-weight: 800;
 }
+
+/* 1300 */
+@media only screen and (max-width: 1300px) {
+    section#hero h1 {
+      width: 69%;
+      font-size: 1.9rem;
+      line-height: 56px;
+    }
+
+}
+
+/* 1200 */
+@media only screen and (max-width: 1200px) {
+    section#hero h1 {
+      width: 70%;
+      font-size: 1.8rem;
+      line-height: 50px;
+    }
+
+}
+
+/* 1024 */
+@media only screen and (max-width: 1024px) {
+    section#hero h1 {
+      width: 76%;
+      font-size: 1.6rem;
+      line-height: 48px;
+    }
+}
+
+/* 800 */
+@media only screen and (max-width: 800px) {
+    section#hero {
+      padding: 50px 50px;
+      margin: 40px;
+    }
+    section#hero h1 {
+      width: 72%;
+      font-size: 1.5rem;
+      line-height: 42px;
+    }
+
+}
+
+/* 600 */
+@media only screen and (max-width: 600px) {
+    section#hero {
+      padding: 50px 50px;
+      margin: 20px;
+    }
+    section#hero h1 {
+      width: 84%;
+      font-size: 1.4rem;
+      line-height: 42px;
+    }
+
+}
+
+/* 500 */
+@media only screen and (max-width: 500px) {
+    section#hero {
+      padding: 40px 30px;
+      margin: 20px;
+    }
+    section#hero h1 {
+      width: 86%;
+      font-size: 1.3rem;
+      line-height: 39px;
+    }
+}
+
+/* 400 */
+@media only screen and (max-width: 400px) {
+    section#hero {
+      padding: 30px 15px;
+      margin: 15px;
+    }
+    section#hero h1 {
+      width: 90%;
+      font-size: 1.1rem;
+      line-height: 32px;
+    }
+}
